@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.leftlinks, .rightlinks{
+    padding: 2vw;
+    margin-top: 2.5vh;
+    display: inline-block;
+}
+.leftlinks ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+}
+
+.leftlinks ul li, .rightlinks ul li {
+    display: inline;
+    margin-left: 4vw;
+}
+.leftlinks{
+    float: left;
+}
+.rightlinks{
+    float: right;
+}
+
+.leftlinks ul li a {
+    text-decoration: none;
+    color: #333; 
+}
+
+section{   
+    background-color: #E26D5C;
+    height: 90vh;
+}
+
+.search-icon {
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+}
+
+.slack-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vw 2vw;
+    background: #000000; 
+}
+
+.slack-logo {
+    width: 32px;
+    height: 32px;
+    margin-right: 2vw;
+}
+
+.slack-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2vw;
+    margin: 0;
+    padding: 0;
+}
+
+.slack-nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+.slack-actions {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+
+.sign-in {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 1vw;
+    font-weight: 500;
+}
+
+.sales-btn {
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    padding: 0.5em 1.2em;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.free-btn {
+    background: #fff;
+    color: #4A154B;
+    border: none;
+    border-radius: 6px;
+    padding: 0.5em 1.2em;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+.hero {
+    background: #E26D5C;
+    color: #fff;
+    padding: 60px 0;
+    text-align: left;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.hero-logo {
+    max-width: 350px;
+    width: 30vw;
+    height: auto;
+    margin-left: 40px;
+    align-self: flex-start;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin-left: 60px; 
+}
+
+.hero h1 {
+    font-size: 2.8em;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 18px;
+}
+
+.hero .highlight {
+    color: #ECB22E;
+    font-weight: 700;
+}
+
+.subtitle {
+    font-size: 1.15em;
+    margin-bottom: 32px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.signup-buttons {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.email-signup {
+    background: #fff;
+    color: #4A154B;
+    border: none;
+    border-radius: 6px;
+    padding: 16px 28px;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+    transition: background 0.2s;
+}
+
+.email-signup:hover {
+    background: #f5f5f5;
+}
+
+.google-signup {
+    background: #4285F4;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 16px 28px;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+    transition: background 0.2s;
+   
+    display: inline-block;
+}
+
+.google-signup:hover {
+    background: #357ae8;
+}
+
+.free-text {
+    font-size: 1.1em;
+    color: #fff;
+}
+
+.free-text strong {
+    color: #fff;
+    font-weight: 700;
+}
